@@ -1,0 +1,39 @@
+body {
+    background-color:lightcyan;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+    
+}
+h1 {
+    font-family: cursive;
+    font-size: 45px;
+    color:mediumblue;
+}
+
+.Menu-Cinnamon {
+    list-style: none;
+    background-color: cornflowerblue;
+    padding: 0;
+    display: flex;
+
+}
+
+.Menu-Cinnamon li {
+    flex: 1;
+}
+
+.Menu-Cinnamon a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: aqua;
+    font-family: cursive;
+    text-align: center;
+}
+
+.Menu-Cinnamon a:hover {
+    background-color:mediumaquamarine;
+}
